@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: dee421a3dd692f2408a28150abe85b0a
-timeCreated: 1516413885
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: mixamorig:Head
     100002: mixamorig:HeadTop_End
@@ -145,10 +143,12 @@ ModelImporter:
     400136: Totem.001_MeshPart1
     4300000: Totem.001_MeshPart0
     4300002: Totem.001_MeshPart1
+    4300004: Totem.001
     7400000: mixamo.com
     9500000: //RootNode
     13700000: Totem.001_MeshPart0
     13700002: Totem.001_MeshPart1
+    13700004: Totem.001
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -228,6 +228,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -252,11 +253,15 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

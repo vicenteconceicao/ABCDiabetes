@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class EmissorScript : MonoBehaviour
 {
-
-    public List<GameObject> AlimentosBons;
-    public List<GameObject> AlimentosRuins;
-
+    public List<GameObject> AlimentosCafe;
+    public List<GameObject> AlimentosAlmoco;
+    public List<GameObject> AlimentosLanche;
+    
     private int RandleTime;
+    private int TipoRefeicao;
+    private int alimento;
 
     private float TimeInicial;
 
@@ -17,6 +19,7 @@ public class EmissorScript : MonoBehaviour
     {
         TimeInicial = Time.time;
         RandleTime = 1;
+        TipoRefeicao = PlayerPrefs.GetInt("TipoRefeicao"); // 0 - Café, 1 - Almoço, 2- Lanche.
     }
 
     // Update is called once per frame
@@ -25,9 +28,6 @@ public class EmissorScript : MonoBehaviour
         if (Time.time - TimeInicial > RandleTime)
         {
             RandleTime = Random.Range(1, 4);
-
-            // Valor randômico para Alimentos Bons = 1, Ruins = 0
-            var randon = Random.Range(0, 2);
 
             // Tempo Atual
             TimeInicial = Time.time;
@@ -38,15 +38,20 @@ public class EmissorScript : MonoBehaviour
             // Gerando uma posição aleatória 
             pos.x = Random.Range(-17, 17);
 
-            var aBons = Random.Range(0, AlimentosBons.Count);
-            var aRuins = Random.Range(0, AlimentosRuins.Count);
-
-            if (randon == 1)
+            switch(TipoRefeicao)
             {
-                Instantiate(AlimentosBons[aBons], pos, Quaternion.identity);
-            }
-            else {
-                Instantiate(AlimentosRuins[aRuins], pos, Quaternion.identity);
+                case 0: // Café.
+                    alimento = Random.Range(0, AlimentosCafe.Count);
+                    Instantiate(AlimentosCafe[alimento], pos, Quaternion.identity);
+                    break;
+                case 1: // Almoço.
+                    alimento = Random.Range(0, AlimentosAlmoco.Count);
+                    Instantiate(AlimentosAlmoco[alimento], pos, Quaternion.identity);
+                    break;
+                case 2: // Lanche.
+                    alimento = Random.Range(0, AlimentosLanche.Count);
+                    Instantiate(AlimentosLanche[alimento], pos, Quaternion.identity);
+                    break;
             }
         }
     }

@@ -8,6 +8,12 @@ TagManager:
   - Ground
   - Bom
   - Ruim
+  - BomCafe
+  - RuimCafe
+  - BomAlmoco
+  - RuimAlmoco
+  - LancheBom
+  - LancheRuim
   layers:
   - Default
   - TransparentFX

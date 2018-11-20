@@ -30,15 +30,16 @@ public class PracaScript : MonoBehaviour
             player = Instantiate(GirlsAvatarList[PlayerPrefs.GetInt("AvatarSelected")], PlayerPosition, Quaternion.identity) as GameObject;
 
         }
-        player.transform.Rotate(new Vector3(0,90,0));
+        player.transform.Rotate(new Vector3(0, 90, 0));
         player.name = "AvatarSelected";
         var cam = player.GetComponentInChildren<Camera>();
         cam.gameObject.AddComponent<AudioListener>();
         player.AddComponent<NavMeshAgent>();
     }
 
-    public void SelectPrato(string prato)
+    // 0 - Café, 1 - Almoço, 2- Lanche.
+    public void SelectPrato(int prato)
     {
-        PlayerPrefs.SetString("PratoSelected", prato);
+        PlayerPrefs.SetInt("TipoRefeicao", prato);
     }
 }
