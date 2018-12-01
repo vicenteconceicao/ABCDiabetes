@@ -28,7 +28,7 @@ public class PracaScript : MonoBehaviour
         else
         {
             player = Instantiate(GirlsAvatarList[PlayerPrefs.GetInt("AvatarSelected")], PlayerPosition, Quaternion.identity) as GameObject;
-
+            player.name = "AvatarSelected";
         }
         player.transform.Rotate(new Vector3(0, 90, 0));
         player.name = "AvatarSelected";
