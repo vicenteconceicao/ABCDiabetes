@@ -275,6 +275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4930720188244366}
   - component: {fileID: 95370089737833378}
+  - component: {fileID: 114090803936618996}
   m_Layer: 0
   m_Name: IndiaSJaleco
   m_TagString: Untagged
@@ -2046,7 +2047,7 @@ Animator:
   m_GameObject: {fileID: 1246966879437468}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2ac7ebc443d59a142baf2f513d768f8e, type: 3}
-  m_Controller: {fileID: 9100000, guid: 5d7c6665b7ab83c43aa6c3f2a4f93c56, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5fa62bc6ad6dcec499758ed0863deee5, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2055,6 +2056,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114090803936618996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1246966879437468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8a35d84d9aefb4abaf66ba3647b40a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HasAnimator: 1
+  Control3D: 1
 --- !u!137 &137570508065605010
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

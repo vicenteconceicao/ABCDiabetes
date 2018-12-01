@@ -7073,19 +7073,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BoysAvatarList:
-  - {fileID: 1349226740359110, guid: c422d53764e602642aa433e1ec07093e, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1251801742827204, guid: befb690a27409a9478e58a6874fe6f6c, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1687114715518680, guid: b6d02fe08f8f47644b4f4fc742e9a836, type: 2}
+  - {fileID: 1644981043713624, guid: 3e34ab62c9121c04185004252a8c9d46, type: 2}
+  - {fileID: 1003420219711240, guid: 7802e3f3929b0c6489d45d7f8e915439, type: 2}
+  - {fileID: 1849054520862568, guid: d3f405b8436dffa4bb56374cc2723e0b, type: 2}
+  - {fileID: 1994779076307712, guid: c668fba7314b931418c34b43267b62fa, type: 2}
+  - {fileID: 1502557938220974, guid: 5083fa793776c654ab96976734c886a8, type: 2}
   GirlsAvatarList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1246966879437468, guid: 895859efd030acc4f843efe9803f9833, type: 2}
+  - {fileID: 1580095981577180, guid: b1fc452f134de5844b3a71ea42fd41b4, type: 2}
+  - {fileID: 1775653820304258, guid: 575cf206b1ecaaf4daa720e1d06b50b6, type: 2}
+  - {fileID: 1657447577908532, guid: 459c613c1ee98be4892c5425045c388e, type: 2}
+  - {fileID: 1187764409862096, guid: 268f3db6f87c1c846a5acd415437f300, type: 2}
+  - {fileID: 1861310618105008, guid: db81590ccad09bd4ba42e5af6c5fbeea, type: 2}
 --- !u!124 &932187686
 Behaviour:
   m_ObjectHideFlags: 0
