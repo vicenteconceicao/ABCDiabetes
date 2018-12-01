@@ -1,4 +1,4 @@
-# Diabetes Game
+# ABCDiabetes Game
 
 O jogo ABCDiabetes está sendo desenvolvido pelo **Laboratório de Ambientes Virtuais Interativos (LAVI)** utilizando a Engine [Unity 3D] com a finalidade de conscientizar crianças quanto à doença Diabetes (Causas, sintomas e tratamento). Serão abordadas as seguintes fases:
 
