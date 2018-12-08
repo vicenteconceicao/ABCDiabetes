@@ -5,6 +5,7 @@ using UnityEngine;
 public class ControllerCanvasFrutas : MonoBehaviour {
 
     public List<Canvas> ListCanvas;
+    public GameObject Alimentos;
 
     private int position;
     private int qtdCanvas;
@@ -14,6 +15,9 @@ public class ControllerCanvasFrutas : MonoBehaviour {
         position = 0;
         ListCanvas[position].gameObject.SetActive(true);
         qtdCanvas = ListCanvas.Count;
+        Alimentos = GameObject.Find("Alimento");
+        print(Alimentos);
+            
     }
 	
 	// Update is called once per frame

@@ -598,7 +598,7 @@ GameObject:
   - component: {fileID: 54165761355042524}
   m_Layer: 0
   m_Name: BrancoSJaleco 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
