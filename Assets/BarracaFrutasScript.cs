@@ -29,7 +29,10 @@ public class BarracaFrutasScript : MonoBehaviour {
         if (other.gameObject.tag.Equals("Player"))
         {
             CanvasFrutas.gameObject.SetActive(true);
-           
+            CanvasLaranja.gameObject.SetActive(true);
+
+
+
         }
     }
 
@@ -38,7 +41,15 @@ public class BarracaFrutasScript : MonoBehaviour {
         if (other.gameObject.tag.Equals("Player"))
         {
             CanvasFrutas.gameObject.SetActive(false);
-          
+            CanvasLaranja.gameObject.SetActive(false);
+            CanvasAbacaxi.gameObject.SetActive(false);
+            CanvasBanana.gameObject.SetActive(false);
+            CanvasManga.gameObject.SetActive(false);
+            CanvasMorango.gameObject.SetActive(false);
+            CanvasMaça.gameObject.SetActive(false);
+            CanvasUva.gameObject.SetActive(false);
+
+
         }
     }
 }

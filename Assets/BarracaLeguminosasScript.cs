@@ -32,6 +32,7 @@ public class BarracaLeguminosasScript : MonoBehaviour
         if (other.gameObject.tag.Equals("Player"))
         {
             CanvasLeguminosas.gameObject.SetActive(true);
+            CanvasArroz.gameObject.SetActive(true);
 
         }
     }
@@ -41,6 +42,13 @@ public class BarracaLeguminosasScript : MonoBehaviour
         if (other.gameObject.tag.Equals("Player"))
         {
             CanvasLeguminosas.gameObject.SetActive(false);
+            CanvasArroz.gameObject.SetActive(false);
+            CanvasBatata.gameObject.SetActive(false);
+            CanvasBatataDoce.gameObject.SetActive(false);
+            CanvasErvilha.gameObject.SetActive(false);
+            CanvasFeijão.gameObject.SetActive(false);
+            CanvasSoja.gameObject.SetActive(false);
+
 
         }
     }

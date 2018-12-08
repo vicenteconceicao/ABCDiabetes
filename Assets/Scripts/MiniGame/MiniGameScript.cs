@@ -83,26 +83,7 @@ public class MiniGameScript : MonoBehaviour {
         pontosCookie.text = PlayerPrefs.GetInt("Cookies").ToString();
         pontosChocolate.text = PlayerPrefs.GetInt("Chocolates").ToString();
 
-        for (int i = 0; i < PlayerPrefs.GetInt("Laranjas"); i++)
-        {
-            laranjas[i].SetActive(true);
-        }
-        for (int i = 0; i < PlayerPrefs.GetInt("Abacaxis"); i++)
-        {
-            abacaxis[i].SetActive(true);
-        }
-        for (int i = 0; i < PlayerPrefs.GetInt("Balinhas"); i++)
-        {
-            balinhas[i].SetActive(true);
-        }
-        for (int i = 0; i < PlayerPrefs.GetInt("Cookies"); i++)
-        {
-            cookies[i].SetActive(true);
-        }
-        for (int i = 0; i < PlayerPrefs.GetInt("Chocolates"); i++)
-        {
-            chocolates[i].SetActive(true);
-        }
+ 
 
         NomeJogador.text = PlayerPrefs.GetString("PlayerName");
         var ponto = 25 - PlayerPrefs.GetInt("PlayerPoint");

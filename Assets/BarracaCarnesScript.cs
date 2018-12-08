@@ -31,6 +31,7 @@ public class BarracaCarnesScript : MonoBehaviour
         if (other.gameObject.tag.Equals("Player"))
         {
             CanvasCarnes.gameObject.SetActive(true);
+            CanvasCarneDeBoi.gameObject.SetActive(true);
 
         }
     }
@@ -40,6 +41,11 @@ public class BarracaCarnesScript : MonoBehaviour
         if (other.gameObject.tag.Equals("Player"))
         {
             CanvasCarnes.gameObject.SetActive(false);
+            CanvasCarneDeBoi.gameObject.SetActive(false);
+            CanvasFrango.gameObject.SetActive(false);
+            CanvasLinguiça.gameObject.SetActive(false);
+            CanvasOvo.gameObject.SetActive(false);
+            CanvasPresunto.gameObject.SetActive(false);
 
         }
     }

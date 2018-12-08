@@ -6,11 +6,11 @@ public class BarracaGuloseimasScript : MonoBehaviour
 {
 
     public Canvas CanvasGuloseimas;
-    public Canvas CanvasCarneDeBoi;
-    public Canvas CanvasFrango;
-    public Canvas CanvasLinguiça;
-    public Canvas CanvasOvo;
-    public Canvas CanvasPresunto;
+    public Canvas CanvasBalinha;
+    public Canvas CanvasCookies;
+    public Canvas CanvasBolacha;
+    public Canvas CanvasBrigadeiro;
+    public Canvas CanvasRefrigerante;
 
 
     // Use this for initialization
@@ -31,7 +31,7 @@ public class BarracaGuloseimasScript : MonoBehaviour
         if (other.gameObject.tag.Equals("Player"))
         {
             CanvasGuloseimas.gameObject.SetActive(true);
-
+            CanvasBalinha.gameObject.SetActive(true);
         }
     }
 
@@ -40,6 +40,11 @@ public class BarracaGuloseimasScript : MonoBehaviour
         if (other.gameObject.tag.Equals("Player"))
         {
             CanvasGuloseimas.gameObject.SetActive(false);
+            CanvasBalinha.gameObject.SetActive(false);
+            CanvasCookies.gameObject.SetActive(false);
+            CanvasBolacha.gameObject.SetActive(false);
+            CanvasBrigadeiro.gameObject.SetActive(false);
+            CanvasRefrigerante.gameObject.SetActive(false);
 
         }
     }

@@ -14,7 +14,7 @@ public class GlicoseScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        slider.value = PlayerPrefs.GetInt("PlayerPoint") / 50.0f;
+        slider.value = PlayerPrefs.GetInt("PlayerPoint") / 25.0f;
 		
 	}
 }
