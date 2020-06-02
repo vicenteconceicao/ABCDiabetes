@@ -4,6 +4,8 @@ O jogo ABCDiabetes está sendo desenvolvido pelo **Laboratório de Ambientes Vir
 
   - Escolha de Alimentos;
   - ...
+  
+Disponível no Google Play: https://play.google.com/store/apps/details?id=com.Lavi.ABCDiabetesAndroid&hl=en
 
 ## Lista de personagens:
   ### Médicos:
